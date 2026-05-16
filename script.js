@@ -1,6 +1,6 @@
 const videoLinks = {
-    youtube: "https://youtu.be/glpCU_xYWz4",
-    rutube: "https://rutube.ru/video/7481cbc256c8c66b62b91d5df812853c/", 
+    youtube: "https://youtu.be/glpCU_xYWz4?si=GczRLbtPGNAXAIZr",
+    rutube: "https://rutube.ru/video/7481cbc256c8c66b62b91d5df812853c/?r=wd", 
     vk: "https://vkvideo.ru/video-238760985_456239017?list=ln-jiU3EbNdnY31Rjkvx7" 
 };
 function changeVideo(platform) {
