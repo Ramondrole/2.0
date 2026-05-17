@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community 2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.webp" alt="Logo" class="logo-img" onerror="this.style.display='none'">
+            <h2 id="site-title">Community 2.0</h2>
+        </div>
+        <div class="nav-links">
+            <a href="https://ramondrole.github.io/2.0-about/" id="nav-about">О нас</a>
+            <a href="mailto:communitysupport20@gmail.com" id="nav-contact">Прямая связь</a>
+            <a href="https://ramondrole.github.io/2.0-Channel/" id="nav-channels">Каналы</a>
+        </div>
+    </nav>
+    <div class="main-wrapper">
+        <div class="video-switcher">
+            <div class="video-label" id="video-label-text">Посмотри видео с правилами</div>
+            <div class="video-buttons">
+                <button class="switch-btn active" data-video="youtube">YouTube</button>
+                <button class="switch-btn" data-video="rutube">Rutube</button>
+                <button class="switch-btn" data-video="vk">VK Видео</button>
+            </div>
+        </div>
+        <div class="iframe-container">
+            <iframe id="main-iframe" 
+                    src="https://www.youtube.com/embed/glpCU_xYWz4" 
+                    title="Video Player" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+        <div class="bottom-panel">
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="ru">RU</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
